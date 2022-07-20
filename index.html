@@ -1,0 +1,93 @@
+<!-- Html es un lenguaje de etiquetas-->
+<!--Hyper Text markup languaje-->
+​
+<!-- Un elemento HTML esta dado por una etiqueta de apertura <> contenido </>-->
+​
+<!-- Estructura de un documento HTML-->
+​
+<!DOCTYPE html>
+<!-- Estamos indicando que el documento es un documento de HTML-->
+<html lang="es">
+  <!--Indicamos que es idioma será español ( en para ingles ) -->
+  <head>
+    <!--ME sirve para darle toda la información a mi navegador, son etiquetas o contenido que no se vera en la pagina-->
+    <meta charset="UTF-8" />
+    <!-- metadatos -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- diseño responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--diseño responsive-->
+    <title>Aprendiendo HTML</title>
+  </head>
+  <body>
+    <!--Cuerpo de mi documento HTML, aqui ponemos todo lo que se verá en la página-->
+    <h1 id="Inicio">Etiquetas de HTML</h1>
+    <p>Existen dos clases de <b>etiquetas</b> de HTML</p>
+    <a href="#Listas">Ir a listas</a>
+    <!--Negritas, con la etiqueta <b> </b> bold o <strong></strong>  -->
+    <h2>Etiquetas de apertura y cierre</h2>
+    <p>La primera son etiquetas que tienen una <i> apertura y un cierre </i></p>
+    <!--Cursiva <i> </i> de italic -->
+    <p>
+      Por ejemplo <u><strike>la etiqueta de parrafo p</strike></u>
+    </p>
+    <!-- Subrayado <u></u> underline -->
+​
+    <h2>Etiquetas de autocierre</h2>
+    <p>
+      Es una etiqueta que no lleva contenido, por lo tanto no necesita una
+      etiqueta de cierre como la etiqueta img.
+    </p>
+    <!--src source-->
+    <img
+      id="Imagenes"
+      src="https://media.prod.mdn.mozit.cloud/attachments/2015/11/10/11915/fc2b734f92bdd791bc121e93094688f3/htmlatributos.png"
+      alt="Anatomia de una etiqueta en HTML"
+    />
+​
+    <img
+      src="./media/dummy-user-img.png"
+      alt="imagen de prueba"
+      width="100px"
+      height="100px"
+    />
+​
+    <!--Mostrar una imagen-->
+​
+    <!-- las anclas mejor conocidas como anchors con la etiqueta a -->
+    <a href="https://google.com" target="_BLANK">Ir a google</a>
+    <!-- A un enlace externo -->
+    <!--Para ir a otra pagina dentro de mi proyecto-->
+    <br />
+    <hr />
+    <br />
+    <br />
+    <a href="./otrapagina.html">Ir a otra página</a>
+​
+    <a href="https://facebook.com" target="_BLANK">
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/124/124010.png"
+        alt="facebook icon"
+        width="50px"
+      />
+    </a>
+​
+    <ol id="Listas">
+      <!--Ordered lists-->
+      <li>
+        <!--List Item-->
+        <a href="./otrapagina.html">elemento uno</a>
+      </li>
+      <li><a href="#Inicio">elemento 2</a></li>
+      <li>elemento 3</li>
+      <li>elemento 4</li>
+      <li>elemento 5</li>
+      <li>elemento 6</li>
+    </ol>
+​
+    <ul>
+      <!-- unordered lists-->
+      <li>elemento dos</li>
+    </ul>
+  </body>
+</html>
